@@ -159,12 +159,21 @@ h3 {
 }
 
 .about__me {
-    width: 60%;
+    width: 100%;
 }
 
 .about__list {
     list-style-image: url(/assets/icons8-star-40.png);
     font-weight: bold;
+}
+
+.about__resume {
+    color: var(--links);
+    font-weight: bold;
+}
+
+.about__resume:hover {
+    font-size: 20px;
 }
 
 .polygon {
@@ -198,7 +207,7 @@ h3 {
 }
 
 .main__blog {
-    background-color: var(--orange);
+    background-color: rgba(255, 123, 0, 0.698);
     margin: 30px auto;
     text-align: center;
     width: 30%;
@@ -237,6 +246,11 @@ h3 {
     height: 200px;
     width: 350px;
     line-height: 26px;
+    background-color: #fff;
+}
+
+.main__projects {
+    background-color: aquamarine;
 }
 
 .project__name {
@@ -300,7 +314,7 @@ h3 {
 
 .sml {
     left: 420px;
-    top: 1765px;
+    top: 1720px;
     height: 60px;
     width: 60px;
 }
