@@ -1,0 +1,114 @@
+body {
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+  background: transparent linear-gradient(180deg, #1d1dff 0%, #000080 100%) 0%
+    0% no-repeat padding-box;
+}
+
+h1,
+h2 {
+  font-family: "Coiny", cursive;
+}
+
+a {
+  color: white;
+}
+
+h2 {
+  margin: 30px 0;
+}
+
+div {
+  margin: 5px;
+}
+
+.resume__nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.resume__title {
+  color: #db2f87;
+}
+
+.resume__nav-item {
+  margin-top: 20px;
+  padding-right: 20px;
+}
+
+.pachi {
+  color: #db2f87;
+}
+
+.container {
+  width: 60%;
+  background-color: white;
+  padding: 40px;
+  margin: 10px auto;
+  color: #000080;
+  box-shadow: 3px 3px 3px #000;
+}
+
+.resume__top {
+  text-align: center;
+  line-height: 40px;
+}
+
+.resume__name {
+  font-size: 62px;
+  text-shadow: 3px 3px 5px #000;
+}
+
+.resume__about {
+  margin: auto;
+  font-weight: bold;
+  width: 70%;
+  background-color: #00ffc2;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #db2f87;
+}
+
+.me {
+  display: flex;
+  margin: 50px 10px;
+}
+
+.job__experience {
+  font-weight: bold;
+  color: #db2f87;
+}
+
+.job__place {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.skill__ball {
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  border-radius: 50%;
+  width: 100px;
+  color: white;
+  background: transparent
+    linear-gradient(85deg, #ff7a00 0%, #db2f87 17%, #0700ff72 58%, #00ffc2 100%)
+    0% 0% no-repeat padding-box;
+}
+
+.resume__skills {
+  margin: 50px;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e {
+  position: relative;
+}
+
+.c {
+  top: -200px;
+  left: 100px;
+}

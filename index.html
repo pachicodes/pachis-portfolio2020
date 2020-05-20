@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pachi's Page</title>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="hero__nav">
+            <ul class="hero__list">
+                <li class="hero__item">
+                    <a class="hero__link" href="#about">About</a>
+                </li>
+                <li class="hero__item">
+                    <a class=" hero__link" href="#projects">Projects</a>
+                </li>
+                <li class="hero__item">
+                    <a class="hero__link" href="https://dev.to/pachicodes" target="_blank">Blog</a>
+                </li>
+                <li class="hero__item">
+                    <a class="hero__link" href="#contact">Contact</a>
+                </li>
+                <li class="hero__item">
+                    <a class="hero__link" href="/resume.html" target="_blank">Resume</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hero__content">
+            <div class="hero__intro">
+                <h1 class="hero__hi">Hi, I am Pachi!</h1>
+                <h2 class="hero__welcome">Welcome to my little corner of the web.</h2>
+                <p class="hero__about">Here you’ll find more information about me, the projects I’m working on, the
+                    articles I’ve written recently as well as
+                    my contact information.</p>
+            </div>
+            <div class="hero__img">
+                <div class="ball one"></div>
+                <div class="ball two"></div>
+                <div class="ball three"></div>
+                <img class="hero__image" src="assets/hero-img.svg" alt="simple illustration of a cute girl">
+            </div>
+        </div>
+
+        <div id="about" class="about">
+            <h2 class="about__title">About me:</h2>
+            <ul class="about__list">
+                <li class="about__item">Self-taught Developer</li>
+                <li class="about__item">Active member of the #DEVcommunity</li>
+                <li class="about__item">In my free time I read a lot and watch anime.</li>
+            </ul>
+        </div>
+    </section>
+    <div class="polygon"></div>
+
+    <section class="main">
+        <div class="resume__interests">
+            <h2 class="resume__sub">Interests:</h2>
+            <ul class="interests__list">
+                <li class="interest__item">Coding</li>
+                <li class="interest__item">Writting</li>
+                <li class="interest__item">Streaming</li>
+            </ul>
+            <p class="resume__text">"I love coding, so I don't only code for work, I also write blog osts about
+                coding and build side projects on live streams."" </p>
+        </div>
+        <div class="main__stack">
+            <h2 class="main__title">Current Tech Stack</h2>
+            <ul class="stack__list">
+                <li class="stack__item">
+                    <img class="stack__icon" src="assets/html.png">
+                    <p class="stack__text">Semantic HTML</p>
+                </li>
+                <li class="stack__item">
+                    <img class="stack__icon" src="assets/css.png">
+                    <p class="stack__text">CSS</p>
+                </li>
+                <li class="stack__item">
+                    <img class="stack__icon" src="assets/js.png">
+                    <p class="stack__text">Vanilla JavaScript</p>
+                </li>
+                <li class="stack__item"></li>
+                <li class="stack__item"></li>
+            </ul>
+        </div>
+
+        <div class="main__blog">
+            <h3 class="blog__text">Check out my DEV account where I write about the things I’m currently learning:</h3>
+            <button type="button" class="blog__btn">
+                <a class="blog__link" href="https://dev.to/pachicodes">Visit my Blog!</a>
+            </button>
+        </div>
+
+        <div id="projects" class="main__projects">
+            <h2 class="main__title">My Projects</h2>
+            <div class="projects__holder">
+                <div class="project">
+                    <h4 class="project__name">Piggie Game</h4>
+                    <p class="project__description">Piggie games was created with pure HTML & CSS and Vanilla JavaScript
+                    </p>
+                    <ul class="project__list">
+                        <li class="project__item">
+                            <a class="project__demo" href="https://pachicodes.github.io/pig-game/" target="_blank">Live
+                                Game</a></li>
+                        <li class="project__item">
+                            <a class="project_repo" href="https://github.com/pachicodes/pig-game"
+                                target="_blank">Repo</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <h4 class="project__name">Be Happy, Meow!</h4>
+                    <p class="project__description">This is a cute app created with HTML, CSS and vanilla JavaSript,
+                        perfect for cat lovers!</p>
+                    <ul class="project__list">
+                        <li class="project__item">
+                            <a class="project__demo" href="https://be-happy-meow.netlify.app/" target="_blank">Live
+                                App</a>
+                        </li>
+                        <li class="project__item">
+                            <a class="project_repo" href="#" target="_blank">Repo</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <h4 class="project__name">Ana Baby Care</h4>
+                    <p class="project__description">This was my first paid job, an elegant website crated with HTML &
+                        CSS only.</p>
+                    <ul class="project__list">
+                        <li class="project__item">
+                            <a class="project__demo" href="https://www.anababycare.com/" target="_blank">Live
+                                Website</a>
+                        </li>
+                        <li class="project__item">
+                            <a class="project_repo" href="https://github.com/pachicodes/Ana-Monteiro"
+                                target="_blank">Repo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+
+        <div class="cball sml"></div>
+        <div class="cball big"></div>
+        <div class="contact__container">
+            <h2 class="contact__title">Let's Connect!</h2>
+            <ul class="contact__list">
+                <li class="contact__item">
+                    <a class="contact__link" href="https://github.com/pachicodes" target="_blank"></a>
+                </li>
+
+                <li class="contact__item">
+                    <a class="contact__link" href="https://twitch.tv/pachicodes" target="_blank"></a>
+                </li>
+
+                <li class="contact__item">
+                    <a class="contact__link" href="https://twitter.com/pachicodes" target="_blank"></a>
+                </li>
+
+                <li class="contact__item">
+                    <a class="contact__link" href="https://linkedin/in/pachicodes" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src="js/app.js">
+    </script>
+</body>
+
+</html>
