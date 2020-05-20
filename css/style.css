@@ -17,8 +17,16 @@ div {
     padding: 20px;
 }
 
+
 h2 {
-    font-size: 32px;
+    font-family: "Coiny",
+        cursive;
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .hero {
@@ -38,7 +46,7 @@ h2 {
 }
 
 .hero__link:hover {
-    text-shadow: 7px 9px 3px var(--orange);
+    text-shadow: 7px 9px 3px var(--links);
     font-weight: bold;
 }
 
@@ -49,7 +57,7 @@ h2 {
 
 .hero__intro {
     width: 40%;
-    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .hero__img {
@@ -57,7 +65,7 @@ h2 {
 }
 
 .hero__image {
-    height: 60vh;
+    height: 50vh;
     position: absolute;
     z-index: 2;
 }
@@ -71,7 +79,32 @@ h2 {
 .hero__welcome,
 .hero__about {
     padding: 10px;
+    line-height: 30px;
 }
+
+.hero__welcome {
+    font-size: 40px;
+    text-shadow: 2px 2px 2px var(--links);
+}
+
+.hero__about {
+    font-size: 20px;
+}
+
+.interests__list {
+    display: flex;
+    line-height: 25px;
+}
+
+.interest__item {
+    padding: 20px;
+}
+
+.resume__text {
+    padding: 20px;
+    line-height: 24px;
+}
+
 
 .ball {
     width: 150px;
@@ -92,7 +125,7 @@ h2 {
     background: transparent linear-gradient(130deg, #FF7A00 0%, #DB2F87 17%, #0700FF72 58%, #00FFC2 100%) 0% 0% no-repeat padding-box;
     opacity: 0.9;
     right: 300px;
-    top: 150px;
+    top: 120px;
     z-index: 1;
 }
 
@@ -100,23 +133,38 @@ h2 {
     background: transparent linear-gradient(85deg, #FF7A00 0%, #DB2F87 17%, #0700FF72 58%, #00FFC2 100%) 0% 0% no-repeat padding-box;
     opacity: 0.9;
     right: 229px;
-    top: 280px;
+    top: 235px;
     z-index: 1;
 
 }
 
 .about {
-    padding-bottom: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.about__holder {
+    display: flex;
 }
 
 .about__title {
-    margin: 50px;
+    margin: 20px;
+    text-shadow: 2px 3px 3px var(--orange);
+}
+
+.about__me,
+.about__topics {
+    padding-top: 0;
+    line-height: 25px;
+}
+
+.about__me {
+    width: 60%;
 }
 
 .about__list {
     list-style-image: url(/assets/icons8-star-40.png);
-    display: flex;
-    justify-content: space-around;
+    font-weight: bold;
 }
 
 .polygon {
@@ -135,7 +183,8 @@ h2 {
 .main__title {
     color: var(--main-blue);
     font-weight: bold;
-    margin: 50px;
+    margin: 0 50px;
+    text-shadow: 2px 3px 3px var(--orange);
 }
 
 .stack__list {
@@ -149,10 +198,15 @@ h2 {
 }
 
 .main__blog {
-    margin: 50px auto;
+    background-color: var(--orange);
+    margin: 30px auto;
     text-align: center;
-    width: 25%;
+    width: 30%;
     line-height: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 6px 7px 8px var(--main-blue);
+    padding: 30px;
 }
 
 .blog__btn {
@@ -196,6 +250,17 @@ h2 {
     color: var(--links);
 }
 
+.project {
+    position: relative;
+}
+
+.project__icon {
+    position: absolute;
+    right: 65px;
+    bottom: 35px;
+}
+
+
 .contact {
     background-color: var(--main-blue);
     height: 250px;
@@ -211,9 +276,17 @@ h2 {
     background-color: var(--white);
 }
 
+.contact__list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .contact__title {
     color: var(--orange);
+    text-shadow: 1px 2px var(--main-blue);
     font-weight: bold;
+    padding: 14px;
+    ;
 }
 
 .cball {
@@ -226,10 +299,12 @@ h2 {
 }
 
 .sml {
-    left: 405px;
-    top: 1760px;
+    left: 420px;
+    top: 1765px;
+    height: 60px;
+    width: 60px;
 }
 
 .big {
-    left: 365px;
+    left: 337px;
 }

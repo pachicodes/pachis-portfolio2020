@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Pachi's Page</title>
@@ -35,8 +36,8 @@
 
         <div class="hero__content">
             <div class="hero__intro">
-                <h1 class="hero__hi">Hi, I am Pachi!</h1>
-                <h2 class="hero__welcome">Welcome to my little corner of the web.</h2>
+                <h1 class="hero__hi">Hi, I am Pachi :)</h1>
+                <h2 class="hero__welcome">Welcome to my page!</h2>
                 <p class="hero__about">Here you’ll find more information about me, the projects I’m working on, the
                     articles I’ve written recently as well as
                     my contact information.</p>
@@ -49,61 +50,54 @@
             </div>
         </div>
 
-        <div id="about" class="about">
-            <h2 class="about__title">About me:</h2>
-            <ul class="about__list">
-                <li class="about__item">Self-taught Developer</li>
-                <li class="about__item">Active member of the #DEVcommunity</li>
-                <li class="about__item">In my free time I read a lot and watch anime.</li>
-            </ul>
+
         </div>
     </section>
-    <div class="polygon"></div>
+    <!--<div class="polygon"></div>-->
 
     <section class="main">
-        <div class="resume__interests">
-            <h2 class="resume__sub">Interests:</h2>
-            <ul class="interests__list">
-                <li class="interest__item">Coding</li>
-                <li class="interest__item">Writting</li>
-                <li class="interest__item">Streaming</li>
-            </ul>
-            <p class="resume__text">"I love coding, so I don't only code for work, I also write blog osts about
-                coding and build side projects on live streams."" </p>
-        </div>
-        <div class="main__stack">
-            <h2 class="main__title">Current Tech Stack</h2>
-            <ul class="stack__list">
-                <li class="stack__item">
-                    <img class="stack__icon" src="assets/html.png">
-                    <p class="stack__text">Semantic HTML</p>
-                </li>
-                <li class="stack__item">
-                    <img class="stack__icon" src="assets/css.png">
-                    <p class="stack__text">CSS</p>
-                </li>
-                <li class="stack__item">
-                    <img class="stack__icon" src="assets/js.png">
-                    <p class="stack__text">Vanilla JavaScript</p>
-                </li>
-                <li class="stack__item"></li>
-                <li class="stack__item"></li>
-            </ul>
-        </div>
+        <div id="about" class="about">
+            <h2 class="about__title">About me:</h2>
+            <div class="about__holder">
+                <div class="about__me">
+                    <p class="about__text">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis
+                        incidunt
+                        iure ipsa deserunt quo! Corrupti sit in aperiam fugit nisi placeat excepturi totam corporis eum
+                        possimus, vitae ratione asperiores quod? "</p>
+                </div>
 
-        <div class="main__blog">
-            <h3 class="blog__text">Check out my DEV account where I write about the things I’m currently learning:</h3>
-            <button type="button" class="blog__btn">
-                <a class="blog__link" href="https://dev.to/pachicodes">Visit my Blog!</a>
-            </button>
+                <div class="about__topics">
+                    <ul class="about__list">
+                        <li class="about__item">Self-taught Developer</li>
+                        <li class="about__item">Active member of the #DEVcommunity</li>
+                        <li class="about__item">In my free time I read a lot and watch anime.</li>
+                    </ul>
+                </div>
+                <div class="resume__interests">
+                    <h3 class="resume__sub">Interests:</h2>
+                        <ul class="interests__list">
+                            <li class="interest__item">
+                                <img class="interest__icon" src="/assets/code.png"><br /> Coding</li>
+                            <li class="interest__item">
+                                <img class="interest__icon" src="/assets/write.png"><br /> Writting</li>
+                            <li class="interest__item">
+                                <img class="interest__icon" src="/assets/stream.png"><br /> Streaming</li>
+                        </ul>
+                        <p class="resume__text">"I love coding, so I don't only code for work, I also write blog
+                            posts about
+                            coding and build side projects on live streams."" </p>
+                </div>
+            </div>
+
         </div>
 
         <div id="projects" class="main__projects">
-            <h2 class="main__title">My Projects</h2>
+            <h2 class="main__title">My Projects:</h2>
             <div class="projects__holder">
                 <div class="project">
                     <h4 class="project__name">Piggie Game</h4>
-                    <p class="project__description">Piggie games was created with pure HTML & CSS and Vanilla JavaScript
+                    <p class="project__description">Piggie games was created with pure HTML & CSS and Vanilla
+                        JavaScript
                     </p>
                     <ul class="project__list">
                         <li class="project__item">
@@ -114,6 +108,7 @@
                                 target="_blank">Repo</a>
                         </li>
                     </ul>
+                    <img class="project__icon" src="assets/project/piggie.png" alt="icon picturing a pig">
                 </div>
 
                 <div class="project">
@@ -129,11 +124,13 @@
                             <a class="project_repo" href="#" target="_blank">Repo</a>
                         </li>
                     </ul>
+                    <img class="project__icon" src="assets/project/meow.png" alt="icon picturing a cat">
                 </div>
 
                 <div class="project">
                     <h4 class="project__name">Ana Baby Care</h4>
-                    <p class="project__description">This was my first paid job, an elegant website crated with HTML &
+                    <p class="project__description">This was my first paid job, an elegant website crated with HTML
+                        &
                         CSS only.</p>
                     <ul class="project__list">
                         <li class="project__item">
@@ -145,8 +142,17 @@
                                 target="_blank">Repo</a>
                         </li>
                     </ul>
+                    <img class="project__icon" src="assets/project/baby.png" alt="icon picturing a baby">
                 </div>
             </div>
+        </div>
+
+        <div class="main__blog">
+            <h3 class="blog__text">Check out my DEV account where I write about the things I’m currently learning:
+            </h3>
+            <button type="button" class="blog__btn">
+                <a class="blog__link" href="https://dev.to/pachicodes">Visit my Blog!</a>
+            </button>
         </div>
     </section>
 
@@ -158,19 +164,33 @@
             <h2 class="contact__title">Let's Connect!</h2>
             <ul class="contact__list">
                 <li class="contact__item">
-                    <a class="contact__link" href="https://github.com/pachicodes" target="_blank"></a>
+                    <a class="contact__link" href="https://github.com/pachicodes" target="_blank">
+                        <img class="contact__icon" src="/assets/contact/github.png">
+                    </a>
                 </li>
 
                 <li class="contact__item">
-                    <a class="contact__link" href="https://twitch.tv/pachicodes" target="_blank"></a>
+                    <a class="contact__link" href="https://twitch.tv/pachicodes" target="_blank">
+                        <img class="contact__icon" src="/assets/contact/twitch.png">
+                    </a>
                 </li>
 
                 <li class="contact__item">
-                    <a class="contact__link" href="https://twitter.com/pachicodes" target="_blank"></a>
+                    <a class="contact__link" href="https://twitter.com/pachicodes" target="_blank">
+                     <img class="contact__icon" src="/assets/contact/twitter.png">
+                    </a>
                 </li>
 
                 <li class="contact__item">
-                    <a class="contact__link" href="https://linkedin/in/pachicodes" target="_blank"></a>
+                    <a class="contact__link" href="https://www.linkedin.com/in/pachicodes/" target="_blank">
+                        <img class="contact__icon" src="/assets/contact/linkedin.png">
+                    </a>
+                </li>
+
+                <li class="contact__item">
+                    <a class="contact__link" href="mailto:pachicodes@gmail.com" target="_blank">
+                        <img class="contact__icon" src="/assets/contact/email.png">
+                    </a>
                 </li>
             </ul>
         </div>
