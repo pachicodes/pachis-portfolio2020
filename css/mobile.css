@@ -1,0 +1,9 @@
+.hero__list,
+.hero__content,
+.interests__list,
+.about__holder,
+.stack__list,
+.projects__holder,
+.contact__list {
+  flex-wrap: wrap;
+}
